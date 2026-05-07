@@ -2,8 +2,8 @@
 # Dataset files
 #--------------------------------------------------------------------------------------------------
 selection = "Test"
-analysis = "AP_Template_R3"
-treeName = "Events"
+analysis = "AP_GEN_DELPHES_DM_R3"
+treeName = "Delphes"
 LumiWeights = 1
 
 analysis_parameters = {   
@@ -33,15 +33,31 @@ NumFilesPerJob_Bkg = 5
 # Dataset files
 #--------------------------------------------------------------------------------------------------
 periods = [
-"0_22",
+"0_24",
 #"1_22",
 #"0_23",
 #"1_23",
 ]
 
 datasets = [
-"Data_MET",
+#"Data_MET",
+#"Signal",
+"QCD",
+"ZZ",
+"Zto2Nu",
+"ZH",
+"WplusH",
+"WminusH",
+"WZ",
+"WW",
+"TT",
+"TT_v2",
+"WToLNu",
 "Signal",
+
+
+
+
 ]
 
 

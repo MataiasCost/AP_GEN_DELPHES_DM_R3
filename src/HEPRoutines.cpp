@@ -10,8 +10,8 @@ void HEPHero::PreRoutines() {
     //=============================================================================================
 
     //----OUTPUT INFO------------------------------------------------------------------------------
-    _outputTree->Branch( "evtWeight", &evtWeight );
-    HDF_insert( "evtWeight", &evtWeight );
+    _outputTree->Branch( "Event_Weight", &Event_Weight[0] );
+    HDF_insert( "evtWeight", &Event_Weight[0] );
 
 }
 
@@ -23,8 +23,8 @@ bool HEPHero::RunRoutines() {
     
     //======SUM THE GENERATOR WEIGHTS=================================================
     if( dataset_group != "Data" ){
-        SumGenWeights_original += genWeight;
-        SumGenWeights += genWeight;
+        SumGenWeights_original += Event_Weight[0];
+        SumGenWeights += Event_Weight[0];
     }
 
 
@@ -34,7 +34,7 @@ bool HEPHero::RunRoutines() {
 
     //======START EVENT WEIGHT========================================================
     evtWeight = 1.;
-    if( dataset_group != "Data" ) evtWeight = genWeight;
+    if( dataset_group != "Data" ) evtWeight = Event_Weight[0];
 
     
     return true;

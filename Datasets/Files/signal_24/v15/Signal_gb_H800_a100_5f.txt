@@ -1,0 +1,1 @@
+/home/mcostare/HEPHERO/datasets_do_DELPHES/gb_th_WWbChiChi_MH800_Ma100_MChi45.root

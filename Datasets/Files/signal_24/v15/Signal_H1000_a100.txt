@@ -1,0 +1,1 @@
+/home/mcostare/HEPHERO/datasets_do_DELPHES/H_Za_QQChiChi_MH1000_Ma100_MChi45.root

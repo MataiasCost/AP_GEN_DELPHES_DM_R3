@@ -1,0 +1,1 @@
+/home/mcostare/HEPHERO/datasets_do_DELPHES/WW/tag_1_delphes_events.root
