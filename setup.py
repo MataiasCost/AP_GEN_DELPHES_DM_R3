@@ -2,7 +2,7 @@
 # Dataset files
 #--------------------------------------------------------------------------------------------------
 selection = "Test"
-analysis = "AP_GEN_DELPHES_DM_R3"
+analysis = "AP_DELPHES_DM_R3"
 treeName = "Delphes"
 LumiWeights = 1
 

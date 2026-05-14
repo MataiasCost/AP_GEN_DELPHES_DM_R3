@@ -1,1 +1,1 @@
-/home/mcostare/HEPHERO/datasets_do_DELPHES/WminusH/tag_1_delphes_events_Hto2B.root
+/cms/store/user/mcostare/datasets_do_DELPHES/WminusH/tag_1_delphes_events_Hto2B.root
